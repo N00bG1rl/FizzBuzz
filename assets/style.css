@@ -1,8 +1,8 @@
 body {
   width: 100%;
   height: 100vh;
-  min-width: 600px;
-  min-height: 600px;
+  min-width: 750px;
+  min-height: 700px;
   background-color: #F7F8FE;
   font-family: 'Merriweather', serif;
   position: relative;
@@ -12,9 +12,16 @@ body {
 h1 {
   color: #FF6539;
   text-align: center;
-  font-size: 60px;
+  font-size: 65px;
   margin: 0;
   padding: 40px;
+}
+.logo {
+  width: 80px;
+  position: absolute;
+  z-index: 3;
+  padding: 20px;
+  background-color: transparent;
 }
 .green {
   color: #28E8BE;
@@ -40,7 +47,7 @@ header {
 .content {
   width: 500px;
   height: 500px;
-  background-color: rgb(247, 248, 254, .8);
+  background-color: rgb(247, 248, 254, .9);
   border: 2px solid #00128A;
   border-radius: 5px;
   -webkit-box-shadow: 2px 3px 23px 4px rgba(0,18,138,0.3);
@@ -79,6 +86,61 @@ header {
   color: #00128A;
   font-weight: 600;
 }
+footer {
+  color: #a6a6a6;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+footer .social {
+  text-align: center;
+  font-size: 0;
+}
+footer .social li {
+  padding: 0 10px 10px 0;
+  display: inline-block;
+}
+.social a {
+  color: #a6a6a6;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.social a svg {
+  vertical-align: middle;
+  fill: #a6a6a6;
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+}
+.social a svg:hover {
+  fill: #00128A;
+  -webkit-transition: fill .2s ease;
+  transition: fill .2s ease;
+}
+.footer-txt,
+.footer-txt a {
+  font-family: 'Montserrat', sans-serif;
+  color: #a6a6a6;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none;
+}
+.footer-txt a:hover {
+  color: #00128A;
+}
 .animation {
   position: absolute;
   top: 80vh;
@@ -89,7 +151,7 @@ header {
 }
 .animation1 {
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  animation: animation1 12s ease-in forwards infinite;
+  animation: animation1 24s ease-in forwards infinite;
 }
 .animation2 {
   transform: scale(0) translate(-50%, -50%);
@@ -97,40 +159,38 @@ header {
 }
 .animation3 {
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  animation: animation3 8s ease-in forwards infinite;
+  animation: animation3 17s ease-in forwards infinite;
 }
 .animation:nth-child(2) {
-  animation-delay: 1s;
+  animation-delay: 2s;
   top: 40vh;
   left: 105vw;
 }
 .animation:nth-child(3) {
-  animation-delay: 1s;
+  animation-delay: 4s;
   top: 60vh;
-  left: 50vw;
+  left: 90vw;
 }
 .animation:nth-child(4) {
-  animation-delay: 2s;
   top: 80vh;
   left: 70vw;
 }
 .animation:nth-child(5) {
-  animation-delay: 5s;
+  animation-delay: 4s;
   top: 70vh;
   left: 80vw;
 }
 .animation:nth-child(6) {
-  animation-delay: 2s;
-  top: 50vh;
-  left: 85vw;
+  animation-delay: 15s;
+  top: 70vh;
+  left: 65vw;
 }
 .animation:nth-child(7) {
-  animation-delay: 6s;
+  animation-delay: 10s;
   top: 30vh;
   left: 35vw;
 }
 .animation:nth-child(8) {
-  animation-delay: 4s;
   top: 90vh;
   left: 100vw;
 }

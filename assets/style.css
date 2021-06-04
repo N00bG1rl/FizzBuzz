@@ -18,6 +18,8 @@ h1 {
 }
 .logo {
   width: 80px;
+  top: 0;
+  left: 0;
   position: absolute;
   z-index: 3;
   padding: 20px;
@@ -87,58 +89,44 @@ header {
   font-weight: 600;
 }
 footer {
-  color: #a6a6a6;
-  font-family: sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 18px;
-  padding: 20px 0 20px 0;
-  text-align: center;
-  width: 100%;
-  display: block;
   position: absolute;
   bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
 }
 footer .social {
-  text-align: center;
   font-size: 0;
+  padding: 0;
 }
 footer .social li {
-  padding: 0 10px 10px 0;
+  padding: 10px 5px;
   display: inline-block;
 }
-.social a {
-  color: #a6a6a6;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-}
 .social a svg {
-  vertical-align: middle;
-  fill: #a6a6a6;
   width: 30px;
   height: 30px;
-  opacity: 1;
+  vertical-align: middle;
+  fill: #999;
+  transition: ease-in-out .5s;
+  -moz-transition: ease-in-out .5s;
 }
 .social a svg:hover {
   fill: #00128A;
-  -webkit-transition: fill .2s ease;
-  transition: fill .2s ease;
 }
-.footer-txt,
-.footer-txt a {
-  font-family: 'Montserrat', sans-serif;
-  color: #a6a6a6;
+.copyright p,
+.copyright a {
+  font-family: sans-serif;
+  color: #999;
   font-size: 15px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
   text-align: center;
-  text-transform: none;
   text-decoration: none;
+  display: inline-block;
+  transition: ease-in-out .5s;
+  -moz-transition: ease-in-out .5s;
 }
-.footer-txt a:hover {
+.copyright a:hover {
   color: #00128A;
 }
 .animation {

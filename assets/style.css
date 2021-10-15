@@ -114,10 +114,13 @@ footer .social li {
 .social a svg:hover {
   fill: #00128A;
 }
-.copyright p,
+.copyright {
+  font-size: 0;
+}
+.copyright span,
 .copyright a {
   font-family: sans-serif;
-  color: #999;
+  color: #737373;
   font-size: 15px;
   font-weight: 400;
   text-align: center;
@@ -125,6 +128,9 @@ footer .social li {
   display: inline-block;
   transition: ease-in-out .5s;
   -moz-transition: ease-in-out .5s;
+}
+.copyright span {
+  padding: 5px;
 }
 .copyright a:hover {
   color: #00128A;

@@ -1,14 +1,23 @@
-# FizzBuzz:
-### Replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz". Numbers divisible by 15 become fizz buzz.
+# FizzBuzz
 
-## Project is created with
+Replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz". Numbers divisible by 15 become fizz buzz.
+
+I created this to practice JavaScript.
+
+# Created at
+
+August 1, 2020
+
+# Project is created with
+
 * JavaScript
 * HTML
 * CSS
 
-## Created at
-Aug 1, 2020
+# View on browser
 
-## [View on browser](https://n00bg1rl.github.io/FizzBuzz/)
+## [https://n00bg1rl.github.io/FizzBuzz/](https://n00bg1rl.github.io/FizzBuzz/)
 
-![github](./assets/github.png)
+# View as image
+
+![github](./assets/images/github.png)
